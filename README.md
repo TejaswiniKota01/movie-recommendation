@@ -32,3 +32,11 @@ Pandas & NumPy
 Scikit-learn
 Pickle (For model storage)
 Streamlit
+
+
+📂 Project Demo
+The static folder contains:
+📸 Screenshot of the app running locally: static/screenshot.png
+🎥 Demo video showing the project in action: static/demo.mp4
+
+You can check them out to see how the app works!
