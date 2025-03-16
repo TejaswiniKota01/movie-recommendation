@@ -1,7 +1,11 @@
-import pickle
 import streamlit as st
+import pickle
 import requests
 import os
+
+# Title and Introduction
+st.title("Movie Recommendation System")
+st.write("Welcome to the Movie Recommendation App!")
 
 # Function to fetch the movie poster from TMDB API
 def fetch_poster(movie_id):
