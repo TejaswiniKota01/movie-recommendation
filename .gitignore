@@ -1,8 +1,27 @@
-echo "venv/
+# Ignore virtual environments
+venv/
+env/
 __pycache__/
-*.pkl
+
+# Ignore system-specific files
 .DS_Store
-.env
+Thumbs.db
+
+# Ignore Python cache and logs
+*.pyc
+*.pyo
 *.log
+
+# Ignore environment variables and sensitive files
+.env
 streamlit-secrets.toml
-" > .gitignore
+
+# Ignore large dataset and model files
+*.pkl
+*.h5
+*.csv
+*.xlsx
+artifacts/
+
+# Ignore large media files
+static/demo.mp4
